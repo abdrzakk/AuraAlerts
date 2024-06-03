@@ -81,7 +81,7 @@ or
 
 USING GIT:
 
-``git clone``
+``git clone https://github.com/abdrzakk/AuraAlerts.git``
 
 
 
