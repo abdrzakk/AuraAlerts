@@ -76,6 +76,9 @@ USING PIP
 ``pip install AuraAlerts==1.0``
 
 from PyPi : https://pypi.org/project/AuraAlerts/1.0/
+
+or
+
 USING GIT:
 
 ``git clone``
