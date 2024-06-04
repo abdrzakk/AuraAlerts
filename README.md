@@ -122,11 +122,11 @@ Aa().custom(
 # DOWNLOAD #
 * USING PIP:
 
-``pip install AuraAlerts==1.0``
+``pip install AuraAlerts``
 
 * from PyPi :
 
-https://pypi.org/project/AuraAlerts/1.0/
+https://pypi.org/project/AuraAlerts/1/
 
 or
 
