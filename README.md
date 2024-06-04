@@ -1,5 +1,5 @@
 # AuraAlerts
-Simple Alerts For Desktop App Developers
+^ Simple Alerts For Desktop App Developers
 
 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+
 # DO NOT REMOVE /imgs FOLDER #
@@ -14,7 +14,10 @@ Success Alert:
 
 
 Simple Usage:
-``AuraAlerts().Aa().success(title='hello',content='content') ``
+
+```python
+AuraAlerts().Aa().success(title='hello',content='content')
+```
 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 Error Alert:
 
@@ -23,7 +26,10 @@ Error Alert:
 
 
 Simple Usage:
-``AuraAlerts().Aa().error(title='hello',content='content')``
+
+```python
+AuraAlerts().Aa().error(title='hello',content='content')
+```
 
 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 
@@ -34,7 +40,10 @@ Warn Alert:
 
 
 Simple Usage:
-``AuraAlerts().Aa().warn(title='hello',content='content')``
+
+```python
+AuraAlerts().Aa().warn(title='hello',content='content')
+```
 
 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 
@@ -45,18 +54,22 @@ Info Alert:
 
 
 Simple Usage:
-``AuraAlerts().Aa().info(title='hello',content='content')``
+
+```python
+AuraAlerts().Aa().info(title='hello',content='content')
+```
 
 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 
 Custom Alert:
 
-
 ![CUSTOM](https://github.com/abdrzakk/AuraAlerts/assets/167257386/c72fec5e-bd93-4450-b09e-7510e570e7df)
 
-
 Simple Usage:
-``AuraAlerts().Aa().custom(title='title', content='content', buttonText, buttonColor='#e08aff', buttonHoverColor='#d561ff', imagePath='default image' , imgSize=(33,33), theme='light')``
+
+```python
+AuraAlerts().Aa().custom(title='title', content='content', buttonText, buttonColor='#e08aff', buttonHoverColor='#d561ff', imagePath='default image' , imgSize=(33,33), theme='light')
+```
 
 +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
 
@@ -68,27 +81,65 @@ __________:title, content, buttonText, theme
 # In Custom You Can Edit:
 __________:title, content, buttonText, buttonColor, buttonHoverColor, imagePath , imgSize, theme
 
+# Simple Usage Code:
+
+Simple Usage Code:
+```python
+from AuraAlerts import Aa
+
+# Error Alert
+Aa().error(title='Title', content='Content')
+
+
+# Success Alert
+Aa().success(title='Title', content='Content')
+
+
+# Warn Alert
+Aa().warn(title='Title', content='Content')
+
+
+# Info Alert
+Aa().info(title='Title', content='Content')
+
+# Custom Alert [YOU CAN EDIT properties MORE THAN error,warn.. alerts]
+
+Aa().custom(
+    title='Title', 
+    content='Content', 
+    buttonText='Button Text', 
+    buttonColor='#e08aff', 
+    buttonHoverColor='#d561ff', 
+    imagePath='default image',
+    theme='light'
+)
+```
+
+
+
+
 
 # DOWNLOAD #
-python:
+* USING PIP:
 
-USING PIP
 ``pip install AuraAlerts==1.0``
 
-from PyPi : https://pypi.org/project/AuraAlerts/1.0/
+* from PyPi :
+
+https://pypi.org/project/AuraAlerts/1.0/
 
 or
 
-USING GIT:
+* USING GIT:
 
 ``git clone https://github.com/abdrzakk/AuraAlerts.git``
 
 
 
 # NOTES:
-  -- IF YOU HAVE AN IDEA , ADD IT
+* IF YOU HAVE AN IDEA , ADD IT
 
-  -- DO NOT REMOVE /imgs FROM SOURCE CODE ###
+* DO NOT REMOVE /imgs FROM SOURCE CODE 
 
 # ENJOY :)
 
